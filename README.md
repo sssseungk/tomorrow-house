@@ -29,9 +29,8 @@ npm i node-sass     // node_modules, packag-lock.json 파일 생성됨
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "node-sass": "node-sass", // 추가
+    "node-sass": "node-sass",   
     "sass": "node-sass -wr --source-map true styles/main.scss style.css"
-    // 추가 (-wr, --source-map true는 옵션)
   }
 }
 ```
@@ -61,9 +60,10 @@ npm i node-sass     // node_modules, packag-lock.json 파일 생성됨
 ```
 
 - 세팅 확인하기
-  ▪️ Settings > Format On Save > 하단 체크 확인
+  ▪️ Settings > Format On Save, Settings > prettier config
+  <br/>
   <image src="./assets/images/reademe-images/prettier-setting1.png"/>
-  ▪️ Settings > prettier config > 하단 체크 확인
+  <br/>
   <image src="./assets/images/reademe-images/prettier-setting2.png"/>
 
 <br/>
