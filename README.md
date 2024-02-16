@@ -129,6 +129,9 @@ npm i node-sass     // node_modules, packag-lock.json 파일 생성됨
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
   box-sizing: border-box;
+  /* 폰트 렌더링 부드럽게 처리하는 효과 */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
